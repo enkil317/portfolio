@@ -1,1 +1,66 @@
+/* Set ALL HTML elements with border-box sizing */
+* {
+    box-sizing: border-box;
+    font-family: Karla;
+  }
 
+body{
+    background-color: #393E41;
+}
+
+header{
+    padding: 1px;
+}
+
+
+main{
+    color: #F6F7EB;
+}
+
+/* Align all div text items to center */
+div.center-text{
+    text-align: left;
+    width: 500px;
+    margin: auto;
+}
+
+footer{
+    padding: 1px;
+}
+
+/* Create purple gradient background with light text */
+.dark-bg{
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(92, 65, 93, 1) 100%); 
+    text-align: center;
+    color: #F6F7EB;
+}
+
+/* Dynamically change link color based on l,v,h,a */
+a{color: #FFFC31;}
+a:link{color: #FFFC31;}
+a:visited{color:#B8B500;}
+a:hover{color: #E94F37;} 
+a:active{color:#E94F37;}
+
+hr{
+    width: 500px;
+}
+
+h2{
+    color:#FFFC31;
+}
+
+/* round edges of profile picture and give drop shadow */
+img{
+    border-radius: 5%;
+    margin-top: 10px;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(19, 19, 78), 0 0 5px rgba(92, 65, 93, 1);
+}
+
+.center-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
