@@ -37,8 +37,8 @@ footer{
 }
 
 /* Dynamically change link color based on l,v,h,a */
-a{color: #FFFC31;}
-a:link{color: #FFFC31;}
+a{color: #0000FF;}
+a:link{color: #0000FF;}
 a:visited{color:#B8B500;}
 a:hover{color: #E94F37;} 
 a:active{color:#E94F37;}
